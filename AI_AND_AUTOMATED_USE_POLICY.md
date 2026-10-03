@@ -1,12 +1,12 @@
 # Veil Routing Protocol (VRP)
 # AI, AUTOMATED PROCESSING, TEXT AND DATA MINING, AND MACHINE-USE POLICY
 
-**Document Status:** Public Rights-Reservation Notice  
-**Project:** Veil Routing Protocol (VRP)  
-**Author / Rightsholder:** Vitalijus Riabovas  
-**Development Period:** 2024–2026  
-**Canonical Repository:** https://github.com/Endless33/Veil-Routing-Protocol  
-**Protected Implementation:** Private / Proprietary / Not Published  
+**Document Status:** Public Rights-Reservation Notice
+**Project:** Veil Routing Protocol (VRP)
+**Author / Rightsholder:** Vitalijus Riabovas
+**Development Period:** 2024–2026
+**Canonical Repository:** https://github.com/Endless33/Veil-Routing-Protocol
+**Protected Implementation:** Private / Proprietary / Not Published
 **Effective Publication:** 2026
 
 ---
@@ -1537,14 +1537,14 @@ from a separate valid authorization.
 
 ---
 
-Copyright © 2024–2026 Vitalijus Riabovas.  
+Copyright © 2024–2026 Vitalijus Riabovas.
 All rights reserved.
 
 Veil Routing Protocol (VRP)
 
-PUBLIC ARCHITECTURE.  
-PROTECTED IMPLEMENTATION.  
+PUBLIC ARCHITECTURE.
+PROTECTED IMPLEMENTATION.
 EXPRESS MACHINE-USE RIGHTS RESERVATION.
 
-SESSION != TRANSPORT.  
+SESSION != TRANSPORT.
 CONTINUITY FIRST.
