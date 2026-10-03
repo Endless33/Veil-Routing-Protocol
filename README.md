@@ -1505,6 +1505,50 @@ That is the next boundary.
 
 ---
 
+# Notice to Engineering and Product Teams
+
+This repository intentionally publishes the **architectural boundary** of
+the Veil Routing Protocol. It does **not** publish or license the protected
+VRP Core.
+
+Public access should therefore not be interpreted as permission to copy,
+republish, rebrand, or misrepresent protected VRP expression, nor as a
+license to obtain or use non-public implementation material.
+
+Changing a programming language, module name, file layout, API surface,
+terminology, formatting, or packaging does not by itself create permission
+to copy expression that remains protected by applicable law.
+
+Likewise, routing protected material through contractors, affiliates,
+automated systems, AI systems, generated specifications, transformed
+documentation, or organizational separation does not itself create rights
+that were not otherwise granted.
+
+At the same time, this repository does not claim ownership over abstract
+ideas, functionality, mathematical principles, general networking or
+distributed-systems concepts, or genuinely independent implementations
+where applicable law permits them.
+
+The boundary is intentional:
+
+    PUBLIC ARCHITECTURE != PUBLIC CORE
+    ACCESS != IMPLEMENTATION LICENSE
+    AUTOMATION != ADDITIONAL RIGHTS
+    ATTRIBUTION != ENDORSEMENT
+    SESSION != TRANSPORT
+
+The public material exists so engineers can understand and evaluate the
+architecture.
+
+The protected implementation remains private.
+
+For the complete terms governing this repository, read `LICENSE`.
+
+For evaluation, integration, protected-access, or commercial discussions,
+see `CONTACT.md`.
+
+---
+
 # A Note to Engineers
 
 Do not accept the architecture because this README says it works.
