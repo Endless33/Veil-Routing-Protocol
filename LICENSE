@@ -1,0 +1,366 @@
+VEIL ROUTING PROTOCOL
+PROPRIETARY PUBLIC-DISCLOSURE LICENSE
+
+Copyright (c) 2024–2026 Vitalijus Riabovas.
+All rights reserved.
+
+Project: Veil Routing Protocol (VRP)
+Author: Vitalijus Riabovas
+
+======================================================================
+1. PURPOSE
+======================================================================
+
+This repository is publicly accessible for technical review, evaluation,
+reference, discussion, and documentation of the Veil Routing Protocol
+("VRP") architecture.
+
+Public availability of this repository does not make VRP open source.
+
+Except for the limited permissions expressly granted below, no copyright,
+patent, trademark, trade-secret, implementation, distribution,
+commercialization, sublicensing, or other intellectual-property rights
+are granted by publication of this repository.
+
+======================================================================
+2. PERMITTED USE
+======================================================================
+
+You may:
+
+(a) access and read the publicly available material in this repository;
+
+(b) evaluate and discuss the publicly documented VRP architecture;
+
+(c) reference the project by name;
+
+(d) link to the canonical public repository;
+
+(e) quote limited portions of the public documentation where permitted
+    by applicable law and with appropriate attribution;
+
+(f) use the public material for internal technical evaluation to
+    determine whether further discussion with the author is appropriate.
+
+These permissions apply only to material actually published in this
+repository.
+
+======================================================================
+3. ATTRIBUTION
+======================================================================
+
+Where attribution is appropriate, the project should be identified as:
+
+    Veil Routing Protocol (VRP)
+    Vitalijus Riabovas
+    2024–2026
+
+Canonical public repository:
+
+    https://github.com/Endless33/Veil-Routing-Protocol
+
+======================================================================
+4. NO OPEN-SOURCE GRANT
+======================================================================
+
+This license is not an open-source software license.
+
+Nothing in this repository should be interpreted as granting permission
+to use, reproduce, modify, distribute, sublicense, sell, commercially
+exploit, or create derivative implementations from protected VRP source
+code or other protected implementation material that has not been
+expressly licensed for such use.
+
+The protected VRP Core is not released under this license.
+
+======================================================================
+5. PROTECTED IMPLEMENTATION
+======================================================================
+
+The protected VRP implementation is maintained separately from this
+public architectural repository.
+
+No rights are granted under this license to obtain, reproduce, distribute,
+modify, sublicense, commercialize, or otherwise use non-public VRP
+implementation material, including but not limited to:
+
+- protected runtime source code;
+- private implementation algorithms;
+- private state-machine implementation;
+- implementation-specific authority mechanisms;
+- protected recovery mechanisms;
+- private validation infrastructure;
+- private regression suites;
+- private evidence artifacts;
+- private deployment mechanisms;
+- non-public cryptographic material;
+- other non-public engineering material.
+
+Access to any such material, if offered, requires a separate explicit
+agreement or license.
+
+======================================================================
+6. NO IMPLIED IMPLEMENTATION LICENSE
+======================================================================
+
+Publication of architectural concepts, diagrams, terminology, security
+objectives, integration models, or other documentation does not by
+itself grant a license to any non-public implementation.
+
+Public explanation of an architectural principle should not be
+interpreted as authorization to obtain or distribute protected VRP
+implementation material.
+
+Any rights not expressly granted are reserved.
+
+======================================================================
+7. PUBLIC DOCUMENTATION
+======================================================================
+
+The documentation in this repository is provided primarily for:
+
+- architectural understanding;
+- technical evaluation;
+- research discussion;
+- project identification;
+- attribution;
+- integration assessment;
+- security-model review.
+
+Substantial republication, redistribution, repackaging, or commercial
+distribution of the repository documentation is not authorized by this
+license unless separately permitted in writing by the copyright holder
+or otherwise allowed by applicable law.
+
+======================================================================
+8. INTERNAL EVALUATION
+======================================================================
+
+Organizations may review the public documentation internally for the
+purpose of determining whether VRP may be relevant to their systems.
+
+This permission does not include a right to:
+
+- access private VRP source code;
+- represent another implementation as the official VRP implementation;
+- redistribute protected VRP material;
+- sublicense VRP;
+- claim authorship of the VRP project;
+- imply endorsement by the VRP author;
+- use non-public VRP implementation material without authorization.
+
+======================================================================
+9. INDEPENDENT IMPLEMENTATIONS
+======================================================================
+
+Nothing in this license is intended to restrict rights that applicable
+law independently provides with respect to ideas, methods, concepts,
+facts, or other material that is not protected by copyright.
+
+However, this license does not grant rights to copy protected expression,
+non-public source code, confidential material, trademarks, or other
+protected VRP assets.
+
+An independently developed implementation must not be represented as:
+
+- the official VRP Core;
+- an implementation produced by Vitalijus Riabovas;
+- an implementation endorsed or certified by the VRP project;
+
+unless such status has been expressly granted in writing.
+
+======================================================================
+10. PROJECT IDENTITY
+======================================================================
+
+"Veil Routing Protocol" and "VRP" identify the project described by this
+repository.
+
+This license does not grant permission to falsely represent another
+project, product, service, or implementation as originating from,
+certified by, endorsed by, or constituting the official protected
+implementation of the Veil Routing Protocol project.
+
+No trademark rights are granted by this license.
+
+======================================================================
+11. AUTHORSHIP
+======================================================================
+
+The Veil Routing Protocol project represented by this repository is an
+independent engineering project developed by:
+
+    Vitalijus Riabovas
+
+during the development period represented as:
+
+    2024–2026
+
+This statement concerns authorship of the specific VRP project and its
+project-specific materials.
+
+It does not claim ownership or authorship of pre-existing networking,
+distributed-systems, cryptographic, transport, migration, multipath,
+replay-protection, state-machine, failover, or other general
+computer-science concepts.
+
+======================================================================
+12. THIRD-PARTY RIGHTS
+======================================================================
+
+Third-party technologies, names, standards, protocols, trademarks, and
+other materials remain subject to their respective rights.
+
+References to technologies such as QUIC, TCP, UDP, Multipath TCP,
+WireGuard, TLS, IPsec, or other systems are descriptive and do not imply
+ownership, affiliation, endorsement, or sponsorship.
+
+======================================================================
+13. NO PATENT LICENSE
+======================================================================
+
+No patent license is granted by this document, whether expressly, by
+implication, estoppel, or otherwise.
+
+Public disclosure of architectural material should not be interpreted
+as an affirmative grant of patent rights.
+
+======================================================================
+14. NO TRADE-SECRET DISCLOSURE
+======================================================================
+
+This license applies to material intentionally made public in this
+repository.
+
+It does not convert non-public VRP material into public material and
+does not authorize disclosure or use of information separately provided
+under confidentiality, evaluation, commercial, employment, consulting,
+pilot, or other restricted conditions.
+
+======================================================================
+15. NO WARRANTY
+======================================================================
+
+THE PUBLIC MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT,
+AVAILABILITY, SECURITY, PERFORMANCE, OR FITNESS FOR PRODUCTION USE.
+
+THE AUTHOR DOES NOT WARRANT THAT THE ARCHITECTURE OR DOCUMENTATION WILL
+SATISFY THE REQUIREMENTS OF ANY PARTICULAR DEPLOYMENT.
+
+TARGET-ENVIRONMENT QUALIFICATION IS REQUIRED BEFORE RELYING ON VRP FOR
+A SPECIFIC PRODUCTION SYSTEM.
+
+======================================================================
+16. LIMITATION OF LIABILITY
+======================================================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER
+SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSS, OR OTHER LIABILITY
+ARISING FROM OR RELATED TO THE USE OF, RELIANCE ON, EVALUATION OF, OR
+INABILITY TO USE THE PUBLIC MATERIAL IN THIS REPOSITORY.
+
+======================================================================
+17. SECURITY AND PRODUCTION USE
+======================================================================
+
+The existence of public security documentation does not constitute:
+
+- security certification;
+- production certification;
+- formal verification;
+- regulatory approval;
+- penetration-test certification;
+- a guarantee against compromise;
+- a guarantee of universal deployment suitability.
+
+Any production deployment requires separate technical, operational,
+security, and target-environment qualification.
+
+======================================================================
+18. EXTERNAL EVALUATION
+======================================================================
+
+Controlled technical evaluation, pilot deployment, security review,
+integration work, or access beyond the public repository may be subject
+to separate terms.
+
+Nothing in this license requires the author to provide:
+
+- private source access;
+- protected binaries;
+- technical support;
+- implementation guidance;
+- evaluation access;
+- pilot access;
+- commercial access;
+- immediate responses to inquiries.
+
+======================================================================
+19. RESERVATION OF RIGHTS
+======================================================================
+
+All rights not expressly granted by this license are reserved by the
+copyright holder.
+
+No additional rights arise merely because:
+
+- the repository is publicly visible;
+- the repository can technically be cloned;
+- documentation can technically be downloaded;
+- project material has been publicly discussed;
+- architectural information has been publicly disclosed.
+
+Technical accessibility does not itself constitute an additional
+license grant.
+
+======================================================================
+20. SEPARATE LICENSES
+======================================================================
+
+A particular file, component, example, dependency, or future release may
+be distributed under different terms if those terms are explicitly
+stated for that material.
+
+Such a license applies only to the material it expressly covers.
+
+It does not automatically change the licensing status of the protected
+VRP Core or the remainder of this repository.
+
+======================================================================
+21. CONTACT
+======================================================================
+
+For questions concerning technical evaluation, pilot access,
+integration, commercial licensing, or other permissions:
+
+    jumpingvpn@proton.me
+
+======================================================================
+22. FINAL NOTICE
+======================================================================
+
+The Veil Routing Protocol public repository exists to establish and
+explain the public architecture of the project.
+
+The architecture is public.
+
+The protected implementation is private.
+
+Public access is not equivalent to an open-source grant.
+
+Public documentation is not equivalent to access to the protected Core.
+
+All rights not expressly granted are reserved.
+
+======================================================================
+
+VEIL ROUTING PROTOCOL
+
+SESSION != TRANSPORT
+
+CONTINUITY FIRST.
+
+Vitalijus Riabovas
+2024–2026
