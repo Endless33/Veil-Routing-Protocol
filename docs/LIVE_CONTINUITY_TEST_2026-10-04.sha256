@@ -1,0 +1,36 @@
+VRP LIVE CONTINUITY TEST — PUBLIC EVIDENCE IDENTITY
+
+Evidence date: 2026-10-04
+Artifact: docs/LIVE_CONTINUITY_TEST_2026-10-04.md
+
+SHA256:
+31dde6500bd625d9a1eea58b99beffb24131f5c57ed4418a239b10ef39869fa6  docs/LIVE_CONTINUITY_TEST_2026-10-04.md
+
+Git blob:
+6bda99edec3a4a6d6b44e704714ce043e04405c2
+
+Original publication commit:
+221c12190192a310a966cf161c7dae93281d3fe4
+
+Original publication tree:
+7e0d4b9e48c3689df4da020fe0b7ccbcb6b6818a
+
+Evidence identity captured:
+2026-10-04T08:40:53Z
+
+Public repository:
+https://github.com/Endless33/Veil-Routing-Protocol
+
+Public video:
+https://youtu.be/D_OGd5BA8o8
+
+VERDICT:
+PASS — LIVE TRANSPORT CONTINUITY DEMONSTRATED
+
+SCOPE:
+VRP LIVE CONTINUITY HARNESS
+REAL NETWORK
+WIFI -> MOBILE / 5G
+
+SESSION != TRANSPORT
+CONTINUITY FIRST.
