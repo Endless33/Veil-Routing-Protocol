@@ -2,28 +2,25 @@
 
 ## Overview
 
-The verification subsystem provides a reusable verification session that owns immutable verification configuration and can verify multiple independent evidence bundles.
+A reusable verification session provides a deterministic verification context that can validate multiple independent evidence bundles using immutable verification configuration.
 
-A verification session contains no runtime state and does not depend on a running VRP instance.
+The session is independent from the VRP runtime and never accesses runtime state during verification.
 
 ---
 
-## Motivation
+## Purpose
 
-Repeated verification should not require rebuilding verification configuration.
+The reusable session exists to separate verification configuration from verification execution.
 
-A reusable verification session allows:
+A single session can verify multiple evidence bundles without rebuilding verification state.
 
-- deterministic repeated verification
-- concurrent verification
-- immutable verification configuration
-- runtime-independent verification
+This reduces duplicated initialization while preserving deterministic behavior.
 
 ---
 
 ## Architecture
 
-```
+```text
 NewSession(Profile)
         │
         ▼
@@ -39,48 +36,40 @@ VerifyBundle()
 EvidenceBundle.Verify()
 ```
 
-The session is responsible only for verification.
+The verification pipeline has one canonical implementation.
 
-It does not own runtime state.
-
----
-
-## Design Goals
-
-The session is designed to provide:
-
-- immutable configuration
-- reusable verification context
-- deterministic execution
-- thread-safe verification
-- runtime independence
+Top-level APIs delegate into the reusable session.
 
 ---
 
 ## Public Guarantees
 
-A verification session guarantees that:
+The reusable verification session guarantees:
 
-- configuration cannot change after construction
-- repeated verification produces deterministic results
-- concurrent verification is supported
-- verification never depends on runtime state
-- verification never mutates the supplied evidence
+- Immutable verification configuration.
+- Deterministic verification results.
+- Runtime-independent verification.
+- Stateless verification execution.
+- Thread-safe concurrent verification.
+- Reusable verification context.
+- No mutation of supplied evidence.
+- No mutation of verification profile.
 
 ---
 
 ## Validation
 
-The implementation is validated through automated tests covering:
+The reusable verification session is validated through automated tests covering:
 
 - repeated verification
 - concurrent verification
-- API consistency
-- deterministic results
+- deterministic verification
+- canonical API behavior
 - ownership isolation
-- canonical verification path
+- reusable verification context
+- session and top-level API equivalence
 
-All verification tests execute successfully under the Go race detector.
+All validation passes successfully under the Go race detector.
 
 ---
 
@@ -88,16 +77,22 @@ All verification tests execute successfully under the Go race detector.
 
 The reusable verification session verifies already generated evidence.
 
-It does not generate evidence.
+It does not:
 
-It does not expose runtime implementation details.
-
-It does not require access to protected runtime components.
+- generate evidence
+- modify evidence
+- expose runtime implementation
+- require protected runtime components
+- access runtime memory
 
 ---
 
-## Design Boundary
+## Design Principles
 
-The public verification API exposes verification contracts only.
+The reusable verification session follows these principles:
 
-Internal runtime implementation remains intentionally private.
+- Verification is independent from runtime execution.
+- Verification configuration is immutable.
+- Verification behavior is deterministic.
+- Public APIs expose contracts rather than implementation details.
+- Runtime internals remain outside the public verification boundary.
