@@ -1,0 +1,23 @@
+VRP PUBLIC DOCUMENTATION — SHA-256 EVIDENCE MANIFEST
+
+Author: Vitalijus Riabovas
+Project: VRP — Veil Routing Protocol
+Repository: https://github.com/Endless33/Veil-Routing-Protocol
+Branch: main
+Commit: 8d633ee8818e0ee3a919e0e51d4261dee587da76
+Tree: 11f823175ffcc0dbd97b3dae480d67908a746801
+Generated UTC: 2026-10-24T17:39:34Z
+Hash Algorithm: SHA-256
+
+Purpose:
+Cryptographic integrity record for the public VRP documentation
+present at the repository identity recorded above.
+
+Files:
+7c1903277a8b9a52f4a297502be920d3eb87699ce561238f6302a27f9d0b22a8  README.md
+a3492a2f422959929fa2be1866d512f16562c2386bbdefe98a40152e5bf580e4  docs/transport-path-admission-invariant.md
+15fbd04d4a2d0a41fd391a940545d622df780beb35b64e714219d589fdebc19d  docs/rejected-endpoint-adversarial-validation.md
+2edb4eba17a59216ada96bdc908074e794ca274c4c0deb8b6a1b5d7d4ab73a6d  docs/real-udp-path-authority-validation.md
+a726a835606ec4a825325b00c4546bacd073690e96ac670357a8bbfc29256323  docs/canonical-ingress-before-path-adoption.md
+f3149d7e2547fee6834067c4dbde4499fd5df5321f29b0f0a5a551684e3d301b  docs/transport-continuity-vs-execution-authority.md
+ca3e3cf7d04f2db065fbb11f06266f960a87e89d838e810b6efd23aab7654608  docs/validation-checkpoint-4cfc77ab.md
