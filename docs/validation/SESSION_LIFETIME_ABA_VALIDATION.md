@@ -96,7 +96,7 @@ The findings apply to the recorded repository revision and test scenarios.
 
 ## 8. Reproducibility
 
-Repository: [Endless33/jumping-vpn-core](https://github.com/Endless33/jumping-vpn-core/tree/fix/stage9s-integrity-hardening)
+Implementation repository: private; not included in this public validation package.
 
 Published revision:
 

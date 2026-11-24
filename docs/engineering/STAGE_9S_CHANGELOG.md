@@ -4,7 +4,7 @@
 
 **Project:** Veil Routing Protocol (VRP)
 
-**Component:** `jumping-vpn-core`
+**Component:** private implementation
 
 **Branch:** `fix/stage9s-integrity-hardening`
 
@@ -80,9 +80,9 @@ These results describe the recorded test executions. They do not constitute a fo
 
 ## Publication
 
-**Repository:** [Endless33/jumping-vpn-core](https://github.com/Endless33/jumping-vpn-core)
+**Repository:** private; not publicly accessible.
 
-**Published branch:** [fix/stage9s-integrity-hardening](https://github.com/Endless33/jumping-vpn-core/tree/fix/stage9s-integrity-hardening)
+**Implementation branch:** private; not publicly accessible.
 
 **Published HEAD:** `e6650db726cedab4e444508c7689eef32d359e43`
 

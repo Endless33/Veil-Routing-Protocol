@@ -83,7 +83,7 @@ The receiving endpoint was an Oracle Linux virtual machine.
 
 Repository:
 
-    jumping-vpn-core
+    Private implementation repository (not publicly accessible)
 
 Publicly recorded source revision during the test:
 

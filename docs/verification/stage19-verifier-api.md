@@ -188,7 +188,7 @@ Public documentation intentionally excludes:
 - Internal evidence generation
 - Private transport logic
 
-These remain inside jumping-vpn-core.
+These remain inside the private implementation.
 
 Current public documentation status
 

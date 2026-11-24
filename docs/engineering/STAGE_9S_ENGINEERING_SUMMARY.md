@@ -14,7 +14,7 @@ The emphasis was on explicit boundaries, reproducible testing, and maintainable 
 
 ## Published Engineering Changes
 
-The work was divided into three commits and published to the `jumping-vpn-core` repository.
+The engineering work was organized into three commits in a private implementation repository. Those commits are not included in this public specification.
 
 ### 1. Opaque Authority Capabilities
 
@@ -58,7 +58,7 @@ These results apply to the executed test scenarios and the tested repository sta
 
 ## Publication Record
 
-**Repository:** [Endless33/jumping-vpn-core](https://github.com/Endless33/jumping-vpn-core)
+**Repository:** private; not publicly accessible.
 
 **Branch:** `fix/stage9s-integrity-hardening`
 

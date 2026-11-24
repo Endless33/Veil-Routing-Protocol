@@ -10,7 +10,7 @@ This is a test report, not a formal security certification.
 
 ## 2. Repository and Revision
 
-**Repository:** [Endless33/jumping-vpn-core](https://github.com/Endless33/jumping-vpn-core)
+**Repository:** private; not publicly accessible.
 
 **Branch:** `fix/stage9s-integrity-hardening`
 
@@ -99,7 +99,7 @@ No performance benchmark or third-party certification is claimed by this report.
 
 The public commit history identifies the changes associated with this validation record.
 
-Repository: [jumping-vpn-core](https://github.com/Endless33/jumping-vpn-core/tree/fix/stage9s-integrity-hardening)
+Implementation repository: private; not included in this public validation package.
 
 Published revision: `e6650db726cedab4e444508c7689eef32d359e43`
 

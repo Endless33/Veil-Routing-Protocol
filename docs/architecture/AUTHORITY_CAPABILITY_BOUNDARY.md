@@ -48,7 +48,7 @@ The following public commits record the work:
 
 The changes include a dedicated authority-claims representation, updates to authority-checking and model-checking components, and tests covering opaque token behavior and claims separation.
 
-Repository: [Endless33/jumping-vpn-core](https://github.com/Endless33/jumping-vpn-core/tree/fix/stage9s-integrity-hardening)
+Implementation: private; source access not provided in the public specification.
 
 ## 5. Validation Scope
 
